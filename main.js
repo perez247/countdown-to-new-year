@@ -2,11 +2,11 @@
 
 (() => {
 
-    // let dateFuture = new Date(new Date().getFullYear() + 1, 0, 1);
+    let dateFuture = new Date(new Date().getFullYear() + 1, 0, 1);
 
     // For testing 
-    let dateFuture = new Date();
-    dateFuture.setSeconds(dateFuture.getSeconds() + 20);
+    // let dateFuture = new Date();
+    // dateFuture.setSeconds(dateFuture.getSeconds() + 20);
 
     let h, m, s = 0; 
 
